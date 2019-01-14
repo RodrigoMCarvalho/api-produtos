@@ -19,7 +19,7 @@ public class Produto implements Serializable {
 	
 	private String nome;
 	
-	private BigDecimal quantidade;
+	private int quantidade;
 	
 	private BigDecimal valor;
 
@@ -39,11 +39,11 @@ public class Produto implements Serializable {
 		this.nome = nome;
 	}
 
-	public BigDecimal getQuantidade() {
+	public int getQuantidade() {
 		return quantidade;
 	}
 
-	public void setQuantidade(BigDecimal quantidade) {
+	public void setQuantidade(int quantidade) {
 		this.quantidade = quantidade;
 	}
 
